@@ -1,0 +1,5 @@
+com\bonify\QA\Testcases\IFrameTest.class
+com\bonify\QA\Individual\Testcases\ValidateIFrameinFinanzen.class
+com\bonify\QA\Testcases\LoginPageTest.class
+com\bonify\QA\Individual\Testcases\ValidateIFrameinMobilFunk.class
+com\bonify\QA\Individual\Testcases\SignUpTest.class

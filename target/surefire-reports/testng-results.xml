@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Bonify Test Automation Suite" duration-ms="238281" started-at="2018-11-25T12:52:26Z" finished-at="2018-11-25T12:56:25Z">
+    <groups>
+    </groups>
+    <test name="LoginPage and IFrame validation Test" duration-ms="238281" started-at="2018-11-25T12:52:26Z" finished-at="2018-11-25T12:56:25Z">
+      <class name="com.bonify.QA.Testcases.IFrameTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.bonify.QA.Testcases.IFrameTest@27a8c74e]" name="setUp" is-config="true" duration-ms="17043" started-at="2018-11-25T12:55:02Z" finished-at="2018-11-25T12:55:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://my.bonify.de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateIFrameinFinanzen(java.lang.String)[pri:5, instance:com.bonify.QA.Testcases.IFrameTest@27a8c74e]" name="ValidateIFrameinFinanzen" duration-ms="16914" started-at="2018-11-25T12:55:19Z" finished-at="2018-11-25T12:55:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bonify]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateIFrameinFinanzen -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bonify.QA.Testcases.IFrameTest@27a8c74e]" name="tearDown" is-config="true" duration-ms="5047" started-at="2018-11-25T12:55:36Z" finished-at="2018-11-25T12:55:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.bonify.QA.Testcases.IFrameTest@27a8c74e]" name="setUp" is-config="true" duration-ms="18144" started-at="2018-11-25T12:55:41Z" finished-at="2018-11-25T12:55:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://my.bonify.de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateIFrameinMobilFunk(java.lang.String, java.lang.String)[pri:6, instance:com.bonify.QA.Testcases.IFrameTest@27a8c74e]" name="ValidateIFrameinMobilFunk" duration-ms="22760" started-at="2018-11-25T12:55:59Z" finished-at="2018-11-25T12:56:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zum Anbieter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bonify]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateIFrameinMobilFunk -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bonify.QA.Testcases.IFrameTest@27a8c74e]" name="tearDown" is-config="true" duration-ms="3017" started-at="2018-11-25T12:56:22Z" finished-at="2018-11-25T12:56:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bonify.QA.Testcases.IFrameTest -->
+      <class name="com.bonify.QA.Testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.bonify.QA.Testcases.LoginPageTest@33f88ab]" name="setUp" is-config="true" duration-ms="26743" started-at="2018-11-25T12:52:26Z" finished-at="2018-11-25T12:52:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://my.bonify.de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="PasswortVergessen()[pri:1, instance:com.bonify.QA.Testcases.LoginPageTest@33f88ab]" name="PasswortVergessen" duration-ms="2579" started-at="2018-11-25T12:52:53Z" finished-at="2018-11-25T12:52:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswortVergessen -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bonify.QA.Testcases.LoginPageTest@33f88ab]" name="tearDown" is-config="true" duration-ms="3876" started-at="2018-11-25T12:52:56Z" finished-at="2018-11-25T12:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.bonify.QA.Testcases.LoginPageTest@33f88ab]" name="setUp" is-config="true" duration-ms="19593" started-at="2018-11-25T12:52:59Z" finished-at="2018-11-25T12:53:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://my.bonify.de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidationofLinks(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.bonify.QA.Testcases.LoginPageTest@33f88ab]" name="ValidationofLinks" duration-ms="34543" started-at="2018-11-25T12:53:19Z" finished-at="2018-11-25T12:53:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Impressum bonify]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bonify - AGB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.bonify.de/datenschutz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidationofLinks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bonify.QA.Testcases.LoginPageTest@33f88ab]" name="tearDown" is-config="true" duration-ms="2637" started-at="2018-11-25T12:53:54Z" finished-at="2018-11-25T12:53:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.bonify.QA.Testcases.LoginPageTest@33f88ab]" name="setUp" is-config="true" duration-ms="28942" started-at="2018-11-25T12:53:56Z" finished-at="2018-11-25T12:54:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://my.bonify.de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SignUpAsaNewUser(java.lang.String)[pri:3, instance:com.bonify.QA.Testcases.LoginPageTest@33f88ab]" name="SignUpAsaNewUser" duration-ms="8613" started-at="2018-11-25T12:54:25Z" finished-at="2018-11-25T12:54:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bonify]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpAsaNewUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bonify.QA.Testcases.LoginPageTest@33f88ab]" name="tearDown" is-config="true" duration-ms="3753" started-at="2018-11-25T12:54:34Z" finished-at="2018-11-25T12:54:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.bonify.QA.Testcases.LoginPageTest@33f88ab]" name="setUp" is-config="true" duration-ms="19221" started-at="2018-11-25T12:54:38Z" finished-at="2018-11-25T12:54:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://my.bonify.de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogintoApplication(java.lang.String)[pri:4, instance:com.bonify.QA.Testcases.LoginPageTest@33f88ab]" name="LogintoApplication" duration-ms="753" started-at="2018-11-25T12:54:57Z" finished-at="2018-11-25T12:54:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bonify]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogintoApplication -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bonify.QA.Testcases.LoginPageTest@33f88ab]" name="tearDown" is-config="true" duration-ms="4087" started-at="2018-11-25T12:54:58Z" finished-at="2018-11-25T12:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bonify.QA.Testcases.LoginPageTest -->
+    </test> <!-- LoginPage and IFrame validation Test -->
+  </suite> <!-- Bonify Test Automation Suite -->
+</testng-results>

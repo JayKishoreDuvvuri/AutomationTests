@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Bonify_Test_Automation_Suite">
+              <span class="suite-name border-passed">Bonify Test Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Bonify_Test_Automation_Suite">
+                    <span>E:\Eclipse Oxygen\WorkSpace\BonifyAutomation\src\test\resources\Test Suite\Testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Bonify_Test_Automation_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Bonify_Test_Automation_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Bonify_Test_Automation_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Bonify_Test_Automation_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Bonify_Test_Automation_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Bonify_Test_Automation_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Bonify_Test_Automation_Suite" class="hide-methods passed suite-Bonify_Test_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Bonify_Test_Automation_Suite -->
+                      <a href="#" panel-name="suite-Bonify_Test_Automation_Suite" class="show-methods passed suite-Bonify_Test_Automation_Suite"> (show)</a> <!-- show-methods passed suite-Bonify_Test_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Bonify_Test_Automation_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bonify_Test_Automation_Suite" title="com.bonify.QA.Testcases.LoginPageTest" hash-for-method="LogintoApplication(bonify)">LogintoApplication(bonify)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bonify_Test_Automation_Suite" title="com.bonify.QA.Testcases.LoginPageTest" hash-for-method="PasswortVergessen">PasswortVergessen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bonify_Test_Automation_Suite" title="com.bonify.QA.Testcases.LoginPageTest" hash-for-method="SignUpAsaNewUser(bonify)">SignUpAsaNewUser(bonify)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bonify_Test_Automation_Suite" title="com.bonify.QA.Testcases.IFrameTest" hash-for-method="ValidateIFrameinFinanzen(bonify)">ValidateIFrameinFinanzen(bonify)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bonify_Test_Automation_Suite" title="com.bonify.QA.Testcases.IFrameTest" hash-for-method="ValidateIFrameinMobilFunk(zum Anbieter, bonify)">ValidateIFrameinMobilFunk(zum Anbieter, bonify)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bonify_Test_Automation_Suite" title="com.bonify.QA.Testcases.LoginPageTest" hash-for-method="ValidationofLinks(Impressum bonify, bonify - AGB, https://www.bonify.de/datenschutz)">ValidationofLinks(Impressum bonify, bonify - AGB, https://www.bonify.de/datenschutz)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Bonify_Test_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Bonify_Test_Automation_Suite" class="panel Bonify_Test_Automation_Suite">
+          <div class="suite-Bonify_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bonify.QA.Testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogintoApplication(bonify)">
+                  </a> <!-- LogintoApplication(bonify) -->
+                  <span class="method-name">LogintoApplication</span>
+                  <span class="parameters">(bonify)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PasswortVergessen">
+                  </a> <!-- PasswortVergessen -->
+                  <span class="method-name">PasswortVergessen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpAsaNewUser(bonify)">
+                  </a> <!-- SignUpAsaNewUser(bonify) -->
+                  <span class="method-name">SignUpAsaNewUser</span>
+                  <span class="parameters">(bonify)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidationofLinks(Impressum bonify, bonify - AGB, https://www.bonify.de/datenschutz)">
+                  </a> <!-- ValidationofLinks(Impressum bonify, bonify - AGB, https://www.bonify.de/datenschutz) -->
+                  <span class="method-name">ValidationofLinks</span>
+                  <span class="parameters">(Impressum bonify, bonify - AGB, https://www.bonify.de/datenschutz)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bonify_Test_Automation_Suite-class-passed -->
+          <div class="suite-Bonify_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bonify.QA.Testcases.IFrameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateIFrameinFinanzen(bonify)">
+                  </a> <!-- ValidateIFrameinFinanzen(bonify) -->
+                  <span class="method-name">ValidateIFrameinFinanzen</span>
+                  <span class="parameters">(bonify)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateIFrameinMobilFunk(zum Anbieter, bonify)">
+                  </a> <!-- ValidateIFrameinMobilFunk(zum Anbieter, bonify) -->
+                  <span class="method-name">ValidateIFrameinMobilFunk</span>
+                  <span class="parameters">(zum Anbieter, bonify)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bonify_Test_Automation_Suite-class-passed -->
+        </div> <!-- panel Bonify_Test_Automation_Suite -->
+        <div panel-name="test-xml-Bonify_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Eclipse Oxygen\WorkSpace\BonifyAutomation\src\test\resources\Test Suite\Testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Bonify Test Automation Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.bonify.QA.ExtentReporterListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;LoginPage and IFrame validation Test&quot;&gt;
+    &lt;parameter name=&quot;Expected_Title&quot; value=&quot;bonify - AGB&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;ExpectedTitle&quot; value=&quot;Impressum bonify&quot;/&gt;
+    &lt;parameter name=&quot;LoginTitle&quot; value=&quot;bonify&quot;/&gt;
+    &lt;parameter name=&quot;expectedTitle&quot; value=&quot;bonify&quot;/&gt;
+    &lt;parameter name=&quot;href&quot; value=&quot;zum Anbieter&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://my.bonify.de&quot;/&gt;
+    &lt;parameter name=&quot;expectedurl&quot; value=&quot;https://www.bonify.de/datenschutz&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bonify.QA.Testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.bonify.QA.Testcases.IFrameTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginPage and IFrame validation Test --&gt;
+&lt;/suite&gt; &lt;!-- Bonify Test Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Bonify_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Bonify Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LoginPage and IFrame validation Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Bonify_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Bonify Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Bonify_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Bonify Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Bonify_Test_Automation_Suite');
+function tableData_Bonify_Test_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ValidationofLinks')
+data.setCell(0, 2, 'com.bonify.QA.Testcases.LoginPageTest')
+data.setCell(0, 3, 34543);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ValidateIFrameinMobilFunk')
+data.setCell(1, 2, 'com.bonify.QA.Testcases.IFrameTest')
+data.setCell(1, 3, 22760);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ValidateIFrameinFinanzen')
+data.setCell(2, 2, 'com.bonify.QA.Testcases.IFrameTest')
+data.setCell(2, 3, 16914);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SignUpAsaNewUser')
+data.setCell(3, 2, 'com.bonify.QA.Testcases.LoginPageTest')
+data.setCell(3, 3, 8613);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'PasswortVergessen')
+data.setCell(4, 2, 'com.bonify.QA.Testcases.LoginPageTest')
+data.setCell(4, 3, 2579);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LogintoApplication')
+data.setCell(5, 2, 'com.bonify.QA.Testcases.LoginPageTest')
+data.setCell(5, 3, 753);
+window.suiteTableData['Bonify_Test_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Bonify_Test_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Bonify_Test_Automation_Suite">
+              </div> <!-- times-div-Bonify_Test_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Bonify_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Bonify Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Bonify_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Bonify_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bonify.QA.Testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Firefox, https://my.bonify.de)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PasswortVergessen</span>
+                <span class="method-start">26743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29322 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Firefox, https://my.bonify.de)</span>
+                <span class="method-start">33198 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidationofLinks(Impressum bonify, bonify - AGB, https://www.bonify.de/datenschutz)</span>
+                <span class="method-start">52791 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">87334 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Firefox, https://my.bonify.de)</span>
+                <span class="method-start">89971 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SignUpAsaNewUser(bonify)</span>
+                <span class="method-start">118913 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">127526 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Firefox, https://my.bonify.de)</span>
+                <span class="method-start">131279 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LogintoApplication(bonify)</span>
+                <span class="method-start">150500 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">151253 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bonify.QA.Testcases.IFrameTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Firefox, https://my.bonify.de)</span>
+                <span class="method-start">155340 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateIFrameinFinanzen(bonify)</span>
+                <span class="method-start">172383 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">189297 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Firefox, https://my.bonify.de)</span>
+                <span class="method-start">194344 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateIFrameinMobilFunk(zum Anbieter, bonify)</span>
+                <span class="method-start">212488 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">235248 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

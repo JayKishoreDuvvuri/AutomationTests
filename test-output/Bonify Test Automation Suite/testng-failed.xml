@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Bonify Test Automation Suite]">
+  <listeners>
+    <listener class-name="com.bonify.QA.ExtentReporterListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="LoginPage and IFrame validation Test(failed)">
+    <parameter name="Expected_Title" value="bonify - AGB"/>
+    <parameter name="browser" value="Edge"/>
+    <parameter name="ExpectedTitle" value="Impressum bonify"/>
+    <parameter name="LoginTitle" value="bonify"/>
+    <parameter name="expectedTitle" value="bonify"/>
+    <parameter name="href" value="zum Anbieter"/>
+    <parameter name="url" value="https://my.bonify.de"/>
+    <parameter name="expectedurl" value="https://www.bonify.de/datenschutz"/>
+    <classes>
+      <class name="com.bonify.QA.Testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LogintoApplication"/>
+          <include name="setUp"/>
+          <include name="ValidationofLinks" invocation-numbers="0"/>
+          <include name="SignUpAsaNewUser"/>
+        </methods>
+      </class> <!-- com.bonify.QA.Testcases.LoginPageTest -->
+      <class name="com.bonify.QA.Testcases.IFrameTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="ValidateIFrameinFinanzen"/>
+          <include name="ValidateIFrameinMobilFunk"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bonify.QA.Testcases.IFrameTest -->
+    </classes>
+  </test> <!-- LoginPage and IFrame validation Test(failed) -->
+</suite> <!-- Failed suite [Bonify Test Automation Suite] -->
